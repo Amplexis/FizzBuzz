@@ -1,5 +1,5 @@
 public class FizzBuzz {
-    public String fizz(int inputNumber) {
-      return "1";
+    public String fizz(Integer inputNumber) {
+      return inputNumber.toString();
     }
 }
