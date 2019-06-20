@@ -6,4 +6,12 @@ public class FizzBuzzMethods {
             return false;
         }
     }
+
+    public static boolean modFive(Integer i) {
+        if (i % 5 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
