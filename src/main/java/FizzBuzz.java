@@ -5,7 +5,9 @@ public class FizzBuzz {
         boolean modFiveResult = FizzBuzzMethods.modFive(inputNumber);
 
         String message;
-        if (modThreeResult == true){
+        if (modThreeResult == true && modFiveResult == true){
+            message = "FizzBuzz!";
+        } else if (modThreeResult == true){
             message = "Fizz!";
         } else if (modFiveResult == true) {
             message = "Buzz!";
